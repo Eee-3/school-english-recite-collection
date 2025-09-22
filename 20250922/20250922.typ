@@ -2,7 +2,7 @@
 #import "../template.typ": bi-i, setup, title-date
 
 // 使用 #show 规则将 `setup` 函数应用到整个文档
-#show: doc => setup(doc, 1)
+#show: doc => setup(doc, 2)
 
 // ================================================================
 //                       下为正文内容
@@ -36,4 +36,4 @@
 + #bi-i("may well be doing", "很可能正在做")
 + #bi-i("had mean to buy", "本来打算买")
 + #bi-i("by means of measurement", "通过测量的方式")
-+ #bi-i("By no means is ...", "决不...")
++ #bi-i("By no means ...", "决不...")
