@@ -19,7 +19,6 @@
         // 右侧单元格：原有右对齐内容
         align(right, text(8pt, gray)[
           Build At: #datetime.today().display() with Typst V#sys.version\
-          #rect(width: 400pt, height: 3pt, fill: green)
         ]),
       ),
     ),
@@ -56,8 +55,6 @@
 #let title-date(date) = {
   align(center)[
     // 标题的字体大小可以单独设置，如果18pt过大
-
-    #rect(width: 111%, height: 3pt, fill: red)
     #text(size: 20pt, weight: "bold")[#date]
 
   ]
