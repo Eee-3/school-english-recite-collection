@@ -37,3 +37,4 @@
 + #bi-i("had mean to buy", "本来打算买")
 + #bi-i("by means of measurement", "通过测量的方式")
 + #bi-i("By no means ...", "决不...")
+
