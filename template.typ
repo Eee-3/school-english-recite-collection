@@ -23,11 +23,11 @@
       ),
     ),
     background: [
-      #set text(gray, size: 40pt)
-      #rotate(30deg)[
-        仅供背诵使用。\
-        用于作弊，后果自负。
-      ]
+      //   #set text(gray, size: 40pt)
+      //   #rotate(30deg)[
+      //     仅供背诵使用。\
+      //     用于作弊，后果自负。
+      //   ]
     ],
   )
 
