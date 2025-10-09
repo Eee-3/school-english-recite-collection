@@ -5,4 +5,3 @@
 - Inter
 - MiSans
 - Gemini-2.5-pro for translation
-- GPT-Pool for access to Gemini models
