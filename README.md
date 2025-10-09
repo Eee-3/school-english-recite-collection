@@ -4,4 +4,4 @@
 - Typst
 - Inter
 - MiSans
-- Gemini-2.5-pro for translation
+- Gemini-2.5-pro/Claude for translation
