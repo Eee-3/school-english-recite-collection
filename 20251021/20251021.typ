@@ -2,47 +2,42 @@
 #import "../template.typ": bi-i, setup, title-date
 
 // 使用 #show 规则将 `setup` 函数应用到整个文档
-#show: doc => setup(doc, 1)
+#show: doc => setup(doc, 1);#set page(columns: 2)
 // ================================================================
 //                       下为正文内容
 // ================================================================
 
-#title-date("20251017")
+#title-date("20251020")
 
 // 2. 使用编号列表 (+) 和 bi-i 函数添加条目
-+ #bi-i("keep a secret from sb.", "对某人保密")
-+ #bi-i("be secured from", "免受...的危害")
-+ #bi-i("see to it that", "务必做到；确保")
-+ #bi-i("make sure that", "确保；查明")
-+ #bi-i("seem to have done", "好像已经做了某事")
-+ #bi-i("sth. sell well", "某物畅销")
-+ #bi-i("sth. be sold out", "某物售罄")
-+ #bi-i("be senior to", "比...年长/级别高")
-+ #bi-i("make any sense", "有任何意义")
-+ #bi-i("make sense of sth.", "理解某事")
-+ #bi-i("it is sensible of sb. to do", "某人做某事是明智的")
-+ #bi-i("be sensitive to", "对...敏感")
-+ #bi-i("be sentenced to", "被判处")
-+ #bi-i("take sth. too seriously", "把某事看得太重")
-+ #bi-i("serve the purpose", "达到目的")
-+ #bi-i("set about doing", "开始做某事")
-+ #bi-i("sets aside do", "留出；拨出")
-+ #bi-i("set out to do", "开始做；着手做")
-+ #bi-i("settle down", "安顿下来；平静下来")
-+ #bi-i("settle down an argument", "解决争端")
-+ #bi-i("what a shame", "真遗憾")
-+ #bi-i("be deeply shaped by", "深受...的影响")
-+ #bi-i("take shelters from", "躲避...")
-+ #bi-i("shift A to B", "将A转移到B")
-+ #bi-i("be short of", "缺少")
-+ #bi-i("shortly after", "之后不久")
-+ #bi-i("shoulder the responsibility of", "承担...的责任")
++ #bi-i("signal to sb. that", "向某人示意...")
++ #bi-i("in a situation where", "在...的情况下")
++ #bi-i("find a solution to", "找到...的解决办法")
++ #bi-i("sort out", "解决；整理")
++ #bi-i("in high spirits", "兴高采烈")
++ #bi-i("in spite of fog", "尽管有雾")
++ #bi-i("split the bill", "分摊账单")
++ #bi-i("spoil our holiday", "破坏我们的假期")
++ #bi-i("spot the problem", "发现问题")
++ #bi-i("spread the cloth on the table", "把桌布铺在桌子上")
++ #bi-i("spy on sb.", "监视某人")
++ #bi-i("freshly-squeezed orange juice", "鲜榨橙汁")
++ #bi-i("live up to the required standard", "达到所要求的标准")
++ #bi-i("be starved to death", "饿死")
++ #bi-i("stay open until midnight", "营业到午夜")
++ #bi-i("taking step to prevent", "采取措施防止")
++ #bi-i("stick to", "坚持；忠于")
++ #bi-i("be stock with", "被...困住；有...的存货")
++ #bi-i("out of stock", "缺货")
++ #bi-i("stop sb. from doing", "阻止某人做某事")
++ #bi-i("report stressed that", "报告强调...")
++ #bi-i("stretch for hundreds of meters", "绵延数百米")
 
 
 
 // 1. 设置标题日期
 
-#set page(columns: 2)
+
 // 1. 修复函数定义
 //    这个函数现在返回一个由三个单元格内容组成的序列 (a, b, c)，
 //    这正是 table 函数所期望的行格式。
@@ -101,7 +96,7 @@
 #table(
   columns: (auto, auto, auto),
   // 定义三列，宽度自动
-  inset: 8pt,
+  inset: 4pt,
   // 设置单元格内边距
 
   // 定义表头
