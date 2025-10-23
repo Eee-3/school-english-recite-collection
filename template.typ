@@ -42,7 +42,7 @@
       "MiSans",
     ),
     size: 14pt,
-    weight: "bold",
+    weight: "medium",
   )
 
   // 3. 应用所有设置到文档内容
