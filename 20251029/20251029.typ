@@ -2,7 +2,7 @@
 #import "../template.typ": bi-i, setup, title-date
 
 // 使用 #show 规则将 `setup` 函数应用到整个文档
-#show: doc => setup(doc, 1)
+#show: doc => setup(doc, 2)
 
 // ================================================================
 //                       下为正文内容
