@@ -20,13 +20,13 @@
 + #bi-i("get back on the track", "重回正轨")
 + #bi-i(
     "a mental construct created by our brain's interpretation of these vibrations\n",
-    "我们的大脑通过解读这些振动而创造出的精神建构",
+    "我们的大脑通过解读这些振动而创造出的精神产物",
   )
 + #bi-i("acknowledge the limitations of our hearing", "承认我们听力的局限性")
 + #bi-i("interplay between sound waves and process capabilities\n", "声波与处理能力之间的相互作用")
 + #bi-i("interval", "间隔")
-+ #bi-i("intensity", "强度")
-+ #bi-i("embark on a mission to do", "肩负起……的使命")
++ #bi-i("intensity", "密集度?(强度)")
++ #bi-i("embark on a mission to do", "肩负起…的使命")
 + #bi-i("who is gravely ill", "病重的人")
 + #bi-i("relay one's message", "传达某人的消息")
 + #bi-i("compressed matter in space", "太空中的压缩物质")
