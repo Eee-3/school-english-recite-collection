@@ -13,7 +13,7 @@
 
 // 2. 使用编号列表 (+) 和 bi-i 函数添加条目
 + #bi-i("the first amateur match in China to attract over 61000 fans\n", "中国第一场吸引超过61000名球迷的业余比赛")
-+ #bi-i("depend on=be based on", "依赖于")
++ #bi-i("depend on/be based on", "依赖于")
 + #bi-i("This large-scale,objective data", "这些大规模的客观数据")
 + #bi-i("match today's best text translators", "匹配当今最好的文本翻译器")
 + #bi-i("even proficient speakers will ...", "即使是熟练的演讲者也会...")
