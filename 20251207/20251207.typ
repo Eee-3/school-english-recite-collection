@@ -12,7 +12,7 @@
 #title-date("20251207")
 #pad()[
   #h(1fr)
-  #text(15pt, weight: "bold", fill: black)[ _Creits \@钱静雯_ ]
+  #text(15pt, weight: "bold", fill: black)[ _Credits \@钱静雯_ ]
 ]
 // 2. 使用编号列表 (+) 和 bi-i 函数添加条目
 + #bi-i("late Mid-20th century", "二十世纪末")
